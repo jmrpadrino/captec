@@ -1,0 +1,46 @@
+/* Captec S.A. Custom CSS */
+.vis{
+    margin-bottom: 36px;
+}
+.vis-up{
+    margin-top: 36px;
+}
+.navbar-languajes{
+    margin-left: 18px;
+}
+.navbar-languajes .dropdown-menu {
+    min-width: 60px;
+    background: rgba(255, 255, 255, 0.3);
+}
+.nav>li>a{
+    padding: 8px 15px;
+    line-height: 0;
+    color: white;
+}
+.navbar-languajes li>a, .navbar-languajes li>a:focus, .navbar-languajes li>a:hover,.navbar-languajes .open>a, .navbar-languajes .open>a:focus, .navbar-languajes .open>a:hover{
+    background: transparent !important;
+    border: none;
+}
+.caret{
+    top: 0 !important;
+}
+.flex-row{
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.clients-2 img{
+    max-width: 150px;
+    max-height: 150px;
+    margin: 36px;
+}
+.google-maps{
+    height: 360px;
+}
+.error-404{
+    font-size: 120px !important;
+    font-weight: 900;
+    line-height: 120px;
+}

@@ -1,0 +1,1754 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: foodtruckquito\n"
+"POT-Creation-Date: 2017-06-19 17:14-0400\n"
+"PO-Revision-Date: 2017-06-19 17:18-0400\n"
+"Last-Translator: Jose Rodriguez <jrodriguez@webcreek.com>\n"
+"Language-Team: Choclomedia <ceo@choclomedia.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:2c,1;_ex:2c,1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: 404.php:20
+msgid "Lo sentimos!, eso que busca no esta, o nunca existió."
+msgstr ""
+"We're sorry!, there is not what you're looking for, or it never existed."
+
+#: 404.php:41 header.php:76 page-sitemap.php:40
+msgid "¿Qui&eacute;nes S&oacute;mos?"
+msgstr "About Us"
+
+#: 404.php:42 header.php:77 page-sitemap.php:41
+msgid "Nuestra Misi&oacute;n"
+msgstr "Our Mision"
+
+#: 404.php:43 header.php:78 page-sitemap.php:42
+msgid "Nuestra Visi&oacute;n"
+msgstr "Our Vision"
+
+#: 404.php:44 header.php:79 page-sitemap.php:43
+msgid "Nuestros valores, nuestro norte!"
+msgstr "Our values, our path!"
+
+#: 404.php:48 header.php:83 page-sitemap.php:47
+msgid "Pol&iacute;ticas"
+msgstr "Policies"
+
+#: 404.php:50 header.php:85 page-sitemap.php:49
+msgid "Pol&iacute;tica de Calidad"
+msgstr "Quality Policy"
+
+#: 404.php:51 header.php:86 page-sitemap.php:50
+msgid "Pol&iacute;tica de Riesgo"
+msgstr "Risks Policy"
+
+#: 404.php:55 header.php:96 includes/captecsa-cpt.php:143 page-sitemap.php:54
+msgid "Clientes"
+msgstr "Customers"
+
+#: 404.php:71 page-sitemap.php:70
+msgid "Soporte"
+msgstr "Support"
+
+#: 404.php:73 header.php:156 includes/captecsa-cpt.php:207 page-sitemap.php:72
+msgid "FAQs"
+msgstr "FAQs"
+
+#: 404.php:75 page-sitemap.php:74
+msgid "Comunicaciones"
+msgstr "Communications"
+
+#: 404.php:77 footer.php:15 header.php:157 page-sitemap.php:76
+msgid "Contacto"
+msgstr "Contact"
+
+#: 404.php:98 header.php:136 includes/captecsa-cpt.php:79
+#: includes/captecsa-cpt.php:113 page-sitemap.php:97
+msgid "Servicios"
+msgstr "Services"
+
+#: 404.php:115 header.php:116 includes/captecsa-cpt.php:15
+#: page-sitemap.php:114
+msgid "Productos"
+msgstr "Products"
+
+#: archive-captecclients.php:10 includes/captecsa-cpt.php:177
+msgid "Clientes de Captec S.A."
+msgstr "Captec S.A.'s customers"
+
+#: archive-captecclients.php:12
+msgid ""
+"As&iacute; como usted, ellos tambien creyeron en los <strong>productos y "
+"servicios de Captec S.A.</strong><br /> Adelante, s&iacute;rvase de "
+"conocerlos"
+msgstr ""
+"Just like you, they also believed in <strong> Captec S.A products and "
+"services </strong><br /> Go ahead, know them now"
+
+#: archive-captecclients.php:49 archive-producto.php:51
+msgid "Ver este Producto"
+msgstr "View this product"
+
+#: archive-captecfaqs.php:12
+msgid ""
+"Sabemos que usted tiene dudas en relación con algunas cosas sobre Captec S."
+"A., por eso hemos destinado este espacio para cubrir todos esto aspectos."
+msgstr ""
+
+#: archive-captecfaqs.php:27
+msgid ""
+"Hemos seleccionado una serie de preguntar para resolver dudas sobre algunos "
+"temas, <br />si persiste su duda, envíenos un mensaje llendo a la p&aacute;"
+"gina de "
+msgstr ""
+
+#: archive-captecfaqs.php:27
+msgid "contacto"
+msgstr "contact"
+
+#: archive-captecservices.php:10
+msgid "Servicios de Captec S.A."
+msgstr "Captec S.A.'s Services"
+
+#: archive-captecservices.php:12
+msgid ""
+"Hemos implementado proyectos en diferentes instituciones financieras en "
+"<strong>Colombia</strong> y <strong>Ecuador</strong>, los mismos han sido "
+"ejecutados exitosamente desde el punto de vista Tecnológico, Operativo, "
+"Financiero, Comercial  y de Mercadeo"
+msgstr ""
+"We have implemented projects in different financial institutions in <strong> "
+"Colombia </ strong> and <strong> Ecuador </ strong>, they have been "
+"successfully executed from the Technological, Operational, Financial, "
+"Commercial and Marketing point of view"
+
+#: archive-captecservices.php:53
+msgid "Ver este servicio"
+msgstr "View this service"
+
+#: archive-producto.php:10 includes/captecsa-cpt.php:49
+msgid "Productos de Captec S.A."
+msgstr "Captec S.A.'s Products"
+
+#: archive-producto.php:12
+msgid ""
+"Nuestro equipo posee un amplio conocimiento  en el desarrollo global del "
+"producto tarjetas de crédito y débito con marcas internacionales."
+msgstr ""
+"Our team has extensive knowledge in the global development of credit and "
+"debit cards with international brands."
+
+#: footer.php:21
+msgid "Dirección"
+msgstr "Address"
+
+#: footer.php:31
+msgid "Acompañenos en"
+msgstr "Join us on"
+
+#: footer.php:39
+msgid "Más..."
+msgstr "More..."
+
+#: footer.php:46
+msgid "Todos los derechos reservados"
+msgstr "All rights reserved"
+
+#: functions.php:26
+msgid "Lenguajes"
+msgstr "Languages"
+
+#: functions.php:31
+msgid "Multi Idioma"
+msgstr ""
+
+#: functions.php:33
+msgid "Uso exclusivo del qTranslate-x"
+msgstr ""
+
+#: header.php:11 index2.php:8
+msgid "Tecnología de procesamiento de tarjetas"
+msgstr "Card Processing Technology"
+
+#: header.php:58
+msgid "Contactar"
+msgstr "Contact"
+
+#: header.php:70
+msgid "Ir al inicio"
+msgstr "Go to home"
+
+#: header.php:71
+msgid "Con&oacute;ce a Captec S.A."
+msgstr "Know Captec S.A"
+
+#: header.php:71
+msgid "La Empresa"
+msgstr "The Company"
+
+#: header.php:91
+msgid "¿Alguna duda?"
+msgstr "¿Need help?"
+
+#: header.php:92
+msgid "Envíe un mensaje"
+msgstr "Send a messaje"
+
+#: header.php:112
+msgid "Todos los Clientes"
+msgstr "All Customers"
+
+#: header.php:132
+msgid "Todos los productos"
+msgstr "All products"
+
+#: header.php:152 includes/captecsa-cpt.php:84
+msgid "Todos los Servicios"
+msgstr "View all Services"
+
+#: includes/captecsa-cpt.php:13
+msgctxt "Post Type General Name"
+msgid "Productos"
+msgstr "Products"
+
+#: includes/captecsa-cpt.php:14
+msgctxt "Post Type Singular Name"
+msgid "Producto"
+msgstr "Product"
+
+#: includes/captecsa-cpt.php:16 includes/captecsa-cpt.php:48
+msgid "Producto"
+msgstr "Product"
+
+#: includes/captecsa-cpt.php:17
+msgid "Archivos de productos"
+msgstr ""
+
+#: includes/captecsa-cpt.php:18
+msgid "Atributos de productos"
+msgstr ""
+
+#: includes/captecsa-cpt.php:19
+msgid "Producto padre:"
+msgstr ""
+
+#: includes/captecsa-cpt.php:20
+msgid "Todos los Productos"
+msgstr ""
+
+#: includes/captecsa-cpt.php:21
+msgid "Agregar nuevo Producto"
+msgstr ""
+
+#: includes/captecsa-cpt.php:22 includes/captecsa-cpt.php:86
+#: includes/captecsa-cpt.php:150 includes/captecsa-cpt.php:214
+msgid "Agregar nuevo"
+msgstr "Add new"
+
+#: includes/captecsa-cpt.php:23
+msgid "Nuevo Producto"
+msgstr ""
+
+#: includes/captecsa-cpt.php:24
+msgid "Editar Producto"
+msgstr ""
+
+#: includes/captecsa-cpt.php:25
+msgid "Actualizar Producto"
+msgstr ""
+
+#: includes/captecsa-cpt.php:26
+msgid "Ver Producto"
+msgstr ""
+
+#: includes/captecsa-cpt.php:27
+msgid "Ver Productos"
+msgstr ""
+
+#: includes/captecsa-cpt.php:28
+msgid "Buscar Producto"
+msgstr ""
+
+#: includes/captecsa-cpt.php:29
+msgid "No se encuentra el Producto"
+msgstr ""
+
+#: includes/captecsa-cpt.php:30
+msgid "No se encuentra el Producto en la papelera"
+msgstr ""
+
+#: includes/captecsa-cpt.php:31 includes/captecsa-cpt.php:95
+#: includes/captecsa-cpt.php:159 includes/captecsa-cpt.php:223
+msgid "Imagen Destacada"
+msgstr ""
+
+#: includes/captecsa-cpt.php:32 includes/captecsa-cpt.php:96
+#: includes/captecsa-cpt.php:160 includes/captecsa-cpt.php:224
+msgid "Colocar imagen destacada"
+msgstr ""
+
+#: includes/captecsa-cpt.php:33 includes/captecsa-cpt.php:97
+#: includes/captecsa-cpt.php:161 includes/captecsa-cpt.php:225
+msgid "Quitar imagen destacada"
+msgstr ""
+
+#: includes/captecsa-cpt.php:34 includes/captecsa-cpt.php:98
+#: includes/captecsa-cpt.php:162 includes/captecsa-cpt.php:226
+msgid "Usar como imagen destacada"
+msgstr ""
+
+#: includes/captecsa-cpt.php:35
+msgid "Insertar en el Producto"
+msgstr ""
+
+#: includes/captecsa-cpt.php:36
+msgid "Cargar en este Producto"
+msgstr ""
+
+#: includes/captecsa-cpt.php:37
+msgid "Lista de Productos"
+msgstr ""
+
+#: includes/captecsa-cpt.php:38
+msgid "Listado de navegación de Productos"
+msgstr ""
+
+#: includes/captecsa-cpt.php:39
+msgid "Lista de Filtros de Productos"
+msgstr ""
+
+#: includes/captecsa-cpt.php:42
+msgid "producto"
+msgstr "producto"
+
+#: includes/captecsa-cpt.php:77
+msgctxt "Post Type General Name"
+msgid "Servicios"
+msgstr "Services"
+
+#: includes/captecsa-cpt.php:78
+msgctxt "Post Type Singular Name"
+msgid "Servicio"
+msgstr "Service"
+
+#: includes/captecsa-cpt.php:80 includes/captecsa-cpt.php:112
+msgid "Servicio"
+msgstr "Service"
+
+#: includes/captecsa-cpt.php:81
+msgid "Servicio Archivos"
+msgstr ""
+
+#: includes/captecsa-cpt.php:82
+msgid "Servicio Atributos"
+msgstr ""
+
+#: includes/captecsa-cpt.php:83
+msgid "Servicio padre:"
+msgstr ""
+
+#: includes/captecsa-cpt.php:85
+msgid "Agregar nuevo Servicio"
+msgstr ""
+
+#: includes/captecsa-cpt.php:87
+msgid "Nuevo Servicio"
+msgstr ""
+
+#: includes/captecsa-cpt.php:88
+msgid "Editar Servicio"
+msgstr ""
+
+#: includes/captecsa-cpt.php:89
+msgid "Actualizar Servicio"
+msgstr ""
+
+#: includes/captecsa-cpt.php:90
+msgid "Ver Servicio"
+msgstr ""
+
+#: includes/captecsa-cpt.php:91
+msgid "Ver Servicios"
+msgstr ""
+
+#: includes/captecsa-cpt.php:92
+msgid "Buscar Servicio"
+msgstr ""
+
+#: includes/captecsa-cpt.php:93
+msgid "No se encuentra el Servicio"
+msgstr ""
+
+#: includes/captecsa-cpt.php:94
+msgid "No se encuentra el Servicio en la papelera"
+msgstr ""
+
+#: includes/captecsa-cpt.php:99
+msgid "Insertar en el Servicio"
+msgstr ""
+
+#: includes/captecsa-cpt.php:100
+msgid "Cargar en este Servicio"
+msgstr ""
+
+#: includes/captecsa-cpt.php:101
+msgid "Servicios Lista"
+msgstr ""
+
+#: includes/captecsa-cpt.php:102
+msgid "Servicios listado de navegación"
+msgstr ""
+
+#: includes/captecsa-cpt.php:103
+msgid "Lista de Filtros Servicios"
+msgstr ""
+
+#: includes/captecsa-cpt.php:106
+msgid "servicio"
+msgstr "service"
+
+#: includes/captecsa-cpt.php:141
+msgctxt "Post Type General Name"
+msgid "Clientes"
+msgstr "Costumers"
+
+#: includes/captecsa-cpt.php:142
+msgctxt "Post Type Singular Name"
+msgid "Cliente"
+msgstr "Customer"
+
+#: includes/captecsa-cpt.php:144 includes/captecsa-cpt.php:176
+#: includes/captecsa-cpt.php:234
+msgid "Cliente"
+msgstr "Customer"
+
+#: includes/captecsa-cpt.php:145
+msgid "Cliente Archivos"
+msgstr ""
+
+#: includes/captecsa-cpt.php:146
+msgid "Cliente Atributos"
+msgstr ""
+
+#: includes/captecsa-cpt.php:147
+msgid "Cliente padre:"
+msgstr ""
+
+#: includes/captecsa-cpt.php:148
+msgid "Todos los Cliente"
+msgstr ""
+
+#: includes/captecsa-cpt.php:149
+msgid "Agregar nuevo Cliente"
+msgstr ""
+
+#: includes/captecsa-cpt.php:151
+msgid "Nuevo Cliente"
+msgstr ""
+
+#: includes/captecsa-cpt.php:152
+msgid "Editar Cliente"
+msgstr ""
+
+#: includes/captecsa-cpt.php:153
+msgid "Actualizar Cliente"
+msgstr ""
+
+#: includes/captecsa-cpt.php:154
+msgid "Ver Cliente"
+msgstr ""
+
+#: includes/captecsa-cpt.php:155
+msgid "Ver Clientes"
+msgstr ""
+
+#: includes/captecsa-cpt.php:156
+msgid "Buscar Cliente"
+msgstr ""
+
+#: includes/captecsa-cpt.php:157
+msgid "No se encuentra el Cliente"
+msgstr ""
+
+#: includes/captecsa-cpt.php:158
+msgid "No se encuentra el Cliente en la papelera"
+msgstr ""
+
+#: includes/captecsa-cpt.php:163
+msgid "Insertar en el Cliente"
+msgstr ""
+
+#: includes/captecsa-cpt.php:164
+msgid "Cargar en este Cliente"
+msgstr ""
+
+#: includes/captecsa-cpt.php:165
+msgid "Clientes Lista"
+msgstr ""
+
+#: includes/captecsa-cpt.php:166
+msgid "Clientes listado de navegación"
+msgstr ""
+
+#: includes/captecsa-cpt.php:167
+msgid "Lista de Filtros Clientes"
+msgstr ""
+
+#: includes/captecsa-cpt.php:170
+msgid "cliente"
+msgstr "customer"
+
+#: includes/captecsa-cpt.php:205
+msgctxt "Post Type General Name"
+msgid "FAQs"
+msgstr ""
+
+#: includes/captecsa-cpt.php:206
+msgctxt "Post Type Singular Name"
+msgid "FAQ"
+msgstr ""
+
+#: includes/captecsa-cpt.php:208
+msgid "FAQ"
+msgstr ""
+
+#: includes/captecsa-cpt.php:209
+msgid "FAQ Archivos"
+msgstr ""
+
+#: includes/captecsa-cpt.php:210
+msgid "FAQ Atributos"
+msgstr ""
+
+#: includes/captecsa-cpt.php:211
+msgid "FAQ padre:"
+msgstr ""
+
+#: includes/captecsa-cpt.php:212
+msgid "Todos los FAQs"
+msgstr ""
+
+#: includes/captecsa-cpt.php:213
+msgid "Agregar nuevo FAQ"
+msgstr ""
+
+#: includes/captecsa-cpt.php:215
+msgid "Nuevo FAQ"
+msgstr ""
+
+#: includes/captecsa-cpt.php:216
+msgid "Editar FAQ"
+msgstr ""
+
+#: includes/captecsa-cpt.php:217
+msgid "Actualizar FAQ"
+msgstr ""
+
+#: includes/captecsa-cpt.php:218
+msgid "Ver FAQ"
+msgstr ""
+
+#: includes/captecsa-cpt.php:219
+msgid "Ver FAQs"
+msgstr ""
+
+#: includes/captecsa-cpt.php:220
+msgid "Buscar FAQ"
+msgstr ""
+
+#: includes/captecsa-cpt.php:221
+msgid "No se encuentra el FAQ"
+msgstr ""
+
+#: includes/captecsa-cpt.php:222
+msgid "No se encuentra el FAQ en la papelera"
+msgstr ""
+
+#: includes/captecsa-cpt.php:227
+msgid "Insertar en el FAQ"
+msgstr ""
+
+#: includes/captecsa-cpt.php:228
+msgid "Cargar en este FAQ"
+msgstr ""
+
+#: includes/captecsa-cpt.php:229
+msgid "FAQs Lista"
+msgstr ""
+
+#: includes/captecsa-cpt.php:230
+msgid "FAQs listado de navegación"
+msgstr ""
+
+#: includes/captecsa-cpt.php:231
+msgid "Lista de Filtros FAQs"
+msgstr ""
+
+#: includes/captecsa-cpt.php:235
+msgid "FAQs para clientes de Captec S.A."
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:7
+msgctxt "Taxonomy General Name"
+msgid "Categorias"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:8
+msgctxt "Taxonomy Singular Name"
+msgid "Categoria"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:9
+msgid "Categorias"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:10
+msgid "Todos las Categorias"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:11
+msgid "Categoria padre"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:12
+msgid "Categoria padre:"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:13
+msgid "Nueva Categoria"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:14
+msgid "Agregar nueva Categoria"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:15
+msgid "Editar Categoria"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:16
+msgid "Actualizar Categoria"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:17
+msgid "Ver Categoria"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:18
+msgid "Separe las Categorias con comas"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:19
+msgid "Agregar o Quitar Categoria"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:20
+msgid "Seleccionar de los as usados"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:21
+msgid "Categorias populares"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:22
+msgid "Buscar Categoria"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:23
+msgid "No se encuentra"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:24
+msgid "No hay Categorias"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:25
+msgid "Listado de Categorias"
+msgstr ""
+
+#: includes/captecsa-taxonomies.php:26
+msgid "Lista de navegación de Categorias"
+msgstr ""
+
+#: index.php:16
+msgid ""
+"Procesamiento de Tarjetas <br>basado en una infraestructura tecnológica "
+"especializada."
+msgstr ""
+"Card Processing <br> based on a specialized technological infrastructure."
+
+#: index.php:17 index.php:39 index.php:54 index.php:153
+msgid "Sepa m&aacute;s"
+msgstr "Learn more"
+
+#: index.php:34
+msgid "Su socio tecnológico en Tarjetas de crédito y débito."
+msgstr "Your technology partner in Credit and Debit Cards."
+
+#: index.php:38
+msgid "Nuestros servicios"
+msgstr "Our services"
+
+#: index.php:53
+msgid "Ver servicio"
+msgstr "View service"
+
+#: index.php:152
+msgid "Ver producto"
+msgstr "View Product"
+
+#: index.php:171
+msgid ""
+"Acompañenos siempre haciendo clic <strong><a href=\"#\">aqui</a></strong> y "
+"mantengamos contacto."
+msgstr ""
+"Join us always by clicking <strong><a href=\"#\">here</a></strong> and let's "
+"keep in touch"
+
+#: page-contacto.php:42 single-producto.php:46
+msgid "Su nombre"
+msgstr "Your name"
+
+#: page-contacto.php:43 single-producto.php:47
+msgid "Su correo electrónico"
+msgstr "Your email"
+
+#: page-contacto.php:44 single-producto.php:48
+msgid "Su mensaje"
+msgstr "Your message"
+
+#: page-contacto.php:46 single-producto.php:50
+msgid "Enviar"
+msgstr "Submit"
+
+#: page-contacto.php:48 single-producto.php:52
+msgid "Mensaje enviado, gracias por contactar."
+msgstr "Message sent, thanks for contact."
+
+#: page-contacto.php:51 single-producto.php:55
+msgid "Por favor complete la información en todos los campos disponibles."
+msgstr "Please complete the information in all available fields."
+
+#: page-quienes-somos.php:64
+msgid "Presidente Ejecutivo"
+msgstr "CEO"
+
+#: page-quienes-somos.php:73
+msgid "Gerente General"
+msgstr "General Manager"
+
+#: page-sitemap.php:18
+msgid "Captec S.A. a un clic"
+msgstr "One clic Captec S.A."
+
+#: page-sitemap.php:29
+msgid ""
+"Est&aacute; a un clic de la informaci&oacute;n que Captec S.A., tiene para "
+"usted. <br/> <strong>Bienvenido</strong>"
+msgstr ""
+
+#: single-captecclients.php:30
+msgid "La Oportunidad"
+msgstr "The opportunity"
+
+#: single-captecclients.php:39
+msgid "Nuestra Soluci&oacute;n"
+msgstr "Our solution"
+
+#: single-captecclients.php:48
+msgid "Sorprendentes Resultados"
+msgstr "Amazing results"
+
+#: single-captecservices.php:28
+msgid "Descripción del Servicio"
+msgstr "Service description"
+
+#: single-producto.php:28
+msgid "Descripción del Producto"
+msgstr "Product description"
+
+#: single-producto.php:43
+msgid "Consulte sobre este producto"
+msgstr ""
+
+#~ msgid "Anterior"
+#~ msgstr "Previous"
+
+#~ msgid "Siguiente"
+#~ msgstr "Next"
+
+#~ msgid "Establecimientos abiertos hoy"
+#~ msgstr "Establishments open today"
+
+#~ msgid "Quiero verlos todos!"
+#~ msgstr "I want to see them all!"
+
+#~ msgid "Establecimientos"
+#~ msgstr "Establishments"
+
+#~ msgid "Especialidades"
+#~ msgstr "Specialties"
+
+#~ msgid "Locaciones"
+#~ msgstr "Locations"
+
+#~ msgid "¿Dónde están los Foodtrucks en Quito?"
+#~ msgstr "Where are the Foodtrucks in Quito?"
+
+#~ msgid ""
+#~ "<p>Los <strong>\"food trucks\"</strong> son una de las tendencias "
+#~ "gastronómicas a posicionarse durante el 2016, año en el que el Ecuador "
+#~ "aparentemente verá proliferar la oferta de comida bajo esta modalidad.</"
+#~ "p>\n"
+#~ "                                <p>En Quito, los camiones de comida "
+#~ "aparecieron en el 2014 con tres ofertas gastronómicas que se duplicaron "
+#~ "para el 2015.</p>"
+#~ msgstr ""
+#~ "<p>The <strong>\"food trucks\"</strong> are one of the gastronomic "
+#~ "tendencies to be positioned during the 2016, year in which Ecuador will "
+#~ "apparently see a proliferation of food supply under this modality.</p><p> "
+#~ "In Quito, food trucks appeared in 2014 with three gastronomic offerings "
+#~ "that doubled by 2015.</p>"
+
+#~ msgid "Teléfono"
+#~ msgstr "Phone"
+
+#~ msgid "¿Conóces estos Food Parks en Quito? - #SigueLaRuta"
+#~ msgstr "Do you know these Food Parks in Quito? - #FollowTheRoute"
+
+#~ msgid "Ver más"
+#~ msgstr "See more"
+
+#~ msgid "Son muchos los Food Trucks en Quito donde puedes comer y disfrutar!"
+#~ msgstr "There are many Food Trucks in Quito where you can eat and enjoy!"
+
+#~ msgid "#SigueLaRuta"
+#~ msgstr "#FollowTheRoute"
+
+#~ msgid "Quiero ver mucho mas!"
+#~ msgstr "I want to see much more!"
+
+#~ msgid "Descubre lo mejor que tiene Quito para ti"
+#~ msgstr "Discover the best Quito has for you"
+
+#~ msgid "Buscar"
+#~ msgstr "Search"
+
+#~ msgid "Sigue la Ruta"
+#~ msgstr "Follow the route"
+
+#~ msgid "Busca rápidamente lo que quieres"
+#~ msgstr "Quickly find what you want"
+
+#~ msgid "Por Especialidad"
+#~ msgstr "By Specialty"
+
+#~ msgid "Por Establecimiento"
+#~ msgstr "By Establishment"
+
+#~ msgid "Por Locacion"
+#~ msgstr "By Location"
+
+#~ msgid ""
+#~ "Los <strong>\"food trucks\"</strong> son una de las tendencias "
+#~ "gastronómicas a posicionarse durante el 2016, año en el que el Ecuador "
+#~ "aparentemente verá proliferar la oferta de comida bajo esta modalidad.</"
+#~ "p>\n"
+#~ "                                <p>En Quito, los camiones de comida "
+#~ "aparecieron en el 2014 con tres ofertas gastronómicas que se duplicaron "
+#~ "para el 2015.</p>"
+#~ msgstr ""
+#~ "<p>The <strong>\"food trucks\"</strong> are one of the gastronomic "
+#~ "tendencies to be positioned during the 2016, year in which Ecuador will "
+#~ "apparently see a proliferation of food supply under this modality.</p><p> "
+#~ "In Quito, food trucks appeared in 2014 with three gastronomic offerings "
+#~ "that doubled by 2015.</p>"
+
+#~ msgid ""
+#~ "Aquí en <span class=\"choclo\">Choclo</span><span class=\"media\">media</"
+#~ "span> reconocemos que hay muchos retos que enfrentan nuestros usuarios, "
+#~ "nuestra familia. Es por eso que estamos felices de anunciar que estamos "
+#~ "reinventando nuestra lista de servicios. Vamos a hacer el trabajo "
+#~ "personalizado para ayudarle en su desarrollo de <strong>WordPress</"
+#~ "strong>."
+#~ msgstr ""
+#~ "Here at <span class=\"choclo\">Choclo</span><span class=\"media\">media</"
+#~ "span> we recognize that there are many challenges faced by our users, our "
+#~ "family. Therefore, we are happy to announce that we are reinventing our "
+#~ "list of services. We do custom work to help you in your "
+#~ "<strong>WordPress</strong> development."
+
+#~ msgid "Inicio"
+#~ msgstr "Home"
+
+#~ msgctxt "choclomedia"
+#~ msgid "servicios"
+#~ msgstr "services"
+
+#~ msgid "clientes"
+#~ msgstr "customers"
+
+#~ msgid "Navegacion Principal"
+#~ msgstr "Main Navigation"
+
+#~ msgid "Aparece en la sección del footer del sitio."
+#~ msgstr "Apears in the footer section of the site"
+
+#~ msgid ""
+#~ "Somos una empresa en crecimiento dedicada al diseño y desarrollo de "
+#~ "p&aacute;ginas web en Quito."
+#~ msgstr ""
+#~ "We are a growing company dedicated to the design and development of web "
+#~ "pages in Quito."
+
+#~ msgid "P&aacute;ginas web en Quito | Diseño y desarrollo en WordPress"
+#~ msgstr "Web pages in Quito | Design and development on WordPress"
+
+#, fuzzy
+#~ msgid "Parent Item:"
+#~ msgstr "Buscar"
+
+#, fuzzy
+#~ msgid "View Item"
+#~ msgstr "Buscar"
+
+#, fuzzy
+#~ msgid "Search Item"
+#~ msgstr "Buscar"
+
+#~ msgid "Servicios de Choclomedia"
+#~ msgstr "Choclomedia's services"
+
+#~ msgid ""
+#~ "Somos diseño y desarrollo de <span class=\"yellow-words\">páginas web</"
+#~ "span> en <span class=\"yellow-words\">Quito</span>."
+#~ msgstr ""
+#~ "We are design and development of <span class=\"yellow-words\">web pages</"
+#~ "span> in <span class=\"yellow-words\">Quito</span>."
+
+#~ msgid ""
+#~ "Sabemos que nos merecemos una <span class=\"yellow-words\">mejor "
+#~ "oportunidad</span>, por eso usamos la <span class=\"yellow-words\">mejor "
+#~ "tecnología web</span>, para impulsar su proyecto."
+#~ msgstr ""
+#~ "We know that we deserve a <span class=\"yellow-words\">better chance</"
+#~ "span>, so we use <span class=\"yellow-words\">the best web technology</"
+#~ "span>, to promote your project."
+
+#~ msgid "beneficios"
+#~ msgstr "pros"
+
+#~ msgid "Son"
+#~ msgstr "There are"
+
+#~ msgid "los beneficios <br/> que obtendrás <br /> con"
+#~ msgstr "pros <br/> you will get <br /> with"
+
+#~ msgid "Obtienes una base de clientes más grande."
+#~ msgstr "Get a larger customer base."
+
+#~ msgid "Educas a los consumidores sobre tú negocio."
+#~ msgstr "Educate consumers about your business."
+
+#~ msgid "Costo de promoción y comercialización eficaz."
+#~ msgstr "Cost of promotion and effective marketing."
+
+#~ msgid "Mejoras la comunicación con tus clientes."
+#~ msgstr "Improve communication with your customers."
+
+#~ msgid "Mantienes ventaja sobre tus competidores."
+#~ msgstr "You maintain an advantage over your competitors."
+
+#~ msgid "Descubre"
+#~ msgstr "Discover"
+
+#~ msgid "c&oacute;mo impulsar tu organizaci&oacute;n"
+#~ msgstr "how to promote your organization"
+
+#~ msgid "servicios"
+#~ msgstr "services"
+
+#~ msgid ""
+#~ "Nuestros servicios de diseño y desarrollo de páginas web siempre serán de "
+#~ "una calidad excepcional, debido a que nos esforzamos por lograr la "
+#~ "excelencia en todo lo que hacemos, con el fin de agregar un valor "
+#~ "significativo a su negocio."
+#~ msgstr ""
+#~ "Our services of design and development of web pages will always be of "
+#~ "exceptional quality, since we strive to achieve excellence in everything "
+#~ "that we do, in order to add significant value to your business."
+
+#~ msgid "Hablemos"
+#~ msgstr "Let's talk"
+
+#~ msgid "Conozca nuestros servicios"
+#~ msgstr "Discover all our services"
+
+#~ msgid "<span class=\"orange\">Su página web</span> <br />a medida"
+#~ msgstr "<span class=\"orange\">Your custom</span> <br />website"
+
+#~ msgid ""
+#~ "Hacemos diseño y desarrollo de paginas web dinámico y de vanguardia para "
+#~ "organizaciones y negocios de todo tipo."
+#~ msgstr ""
+#~ "We design and develop dynamic and state-of-the-art web pages for "
+#~ "organizations and businesses of all kinds."
+
+#~ msgid ""
+#~ "Podemos adaptar requisitos complejos a una solución profesional fácil de "
+#~ "administrar."
+#~ msgstr ""
+#~ "We can adapt complex requirements to an easy-to-manage professional "
+#~ "solution."
+
+#~ msgid "Díganos que necesita?"
+#~ msgstr "Tell us what you need?"
+
+#~ msgid "Direcci&oacute;n"
+#~ msgstr "Address"
+
+#~ msgid "Tel&eacute;fono"
+#~ msgstr "Phone"
+
+#~ msgid "También somos sociales"
+#~ msgstr "We are also social"
+
+#~ msgid "Trabajemos de la mano."
+#~ msgstr "Let's work hand in hand."
+
+#~ msgid "Nombre"
+#~ msgstr "Name"
+
+#~ msgid "Correo Electr&oacute;nico"
+#~ msgstr "E-mail"
+
+#~ msgid "Compa&ntilde;&iacute;a"
+#~ msgstr "company"
+
+#~ msgid "Todos los datos son requeridos"
+#~ msgstr "All data is required"
+
+#~ msgid "Clientes <span class=\"satisfied\">Satisfechos</span>"
+#~ msgstr "<span class=\"satisfied\">Satisfied</span> customers"
+
+#~ msgid ""
+#~ "es un portal de noticias diseñado a medida. Trabaja bajo "
+#~ "<strong>WordPress</strong>, el home es autoadministrable a trav&eacute;s "
+#~ "de un plugin hecho a medida. <strong>3 meses de desarrollo.</strong>"
+#~ msgstr ""
+#~ "Is a bespoke news portal. It works under <strong> WordPress</strong>, the "
+#~ "home is self-administered through a custom plugin. <strong>3 months of "
+#~ "development. </strong>"
+
+#~ msgid "Beneficios"
+#~ msgstr "Pros"
+
+#~ msgid "Satisfechos"
+#~ msgstr "Satisfied"
+
+#~ msgid ""
+#~ "Sabemos que nos merecemos una <span class=\"yellow-words\">mejor "
+#~ "oportunidad</span>, por eso usamos la <span class=\"yellow-words\">mejor "
+#~ "tecnología</span> para diseñar y desarrollar <span class=\"yellow-words"
+#~ "\">páginas web</span> para usted, en <span class=\"yellow-words\">Quito</"
+#~ "span>."
+#~ msgstr ""
+#~ "We know that we deserve a <span class=\"yellow-words\">better "
+#~ "opportunity</span>, that's why we use <span class=\"yellow-words\">the "
+#~ "best technology</span> to design and develop <span class=\"yellow-words"
+#~ "\">web pages</span> in <span class=\"yellow-words\">Quito</span>."
+
+#~ msgid ""
+#~ "Nuestro servicio y diseño de páginas web siempre serán de una calidad "
+#~ "excepcional, debido a que nos esforzamos por lograr la excelencia en todo "
+#~ "lo que hacemos, con el fin de agregar un valor significativo a su negocio."
+#~ msgstr ""
+#~ "Our service and design will always be of exceptional quality as we strive "
+#~ "for excellence in everything we do, in order to add significantly to your "
+#~ "business."
+
+#~ msgid "los beneficios <br/> que tendrás <br /> con"
+#~ msgstr "pros <br/> you will get <br /> with"
+
+#~ msgid ""
+#~ "Somos diseño y desarrollo de <span class=\"yellow-words\">páginas web</"
+#~ "span> en Quito."
+#~ msgstr ""
+#~ "We design and develop <span class=\"yellow-words\">web pages</span> in "
+#~ "Quito."
+
+#~ msgid "Páginas web en Quito | Diseño y desarrollo en WordPress"
+#~ msgstr "Websites in Quito | Design and development in WordPress"
+
+#~ msgid "Fregaderos"
+#~ msgstr "DishWashers"
+
+#~ msgid "Accesorios"
+#~ msgstr "Accesories"
+
+#~ msgid "Mapa"
+#~ msgstr "Map"
+
+#~ msgid "Ver mas"
+#~ msgstr "See more"
+
+#~ msgid "Navegacion del Footer 1"
+#~ msgstr "Footer nav 1"
+
+#~ msgid "Navegacion del Footer 2"
+#~ msgstr "Footer nav 2"
+
+#~ msgid "Area de Widget 1"
+#~ msgstr "Widget area 1"
+
+#~ msgid "Modelo"
+#~ msgstr "Model"
+
+#~ msgid "Alfanumérico."
+#~ msgstr "Alphanumeric"
+
+#~ msgid "Características"
+#~ msgstr "Features"
+
+#~ msgid "Tinas"
+#~ msgstr "Tubs"
+
+#~ msgid "Use numeros."
+#~ msgstr "Use numbers"
+
+#~ msgid "Instalación"
+#~ msgstr "Instalation"
+
+#~ msgid "Medidas"
+#~ msgstr "Sizes"
+
+#~ msgid "Ancho"
+#~ msgstr "Width"
+
+#~ msgid "Largo"
+#~ msgstr "Large"
+
+#~ msgid "Profundidad"
+#~ msgstr "Deep"
+
+#~ msgid "Lista de Accesorios"
+#~ msgstr "Accesories List"
+
+#~ msgid "Escriba la lista de accesorios que viene con el producto."
+#~ msgstr "Write the accesories list that comes with the product."
+
+#~ msgid "Documentos"
+#~ msgstr "Documents"
+
+#~ msgid "Diagrama"
+#~ msgstr "Diagram"
+
+#~ msgid "Manual de Limpieza"
+#~ msgstr "Cleaning Manual"
+
+#~ msgid "Manual de Instalación"
+#~ msgstr "Installation Manual"
+
+#~ msgid "Imagen"
+#~ msgstr "Image"
+
+#~ msgid "Imagen del banner"
+#~ msgstr "Banner Image"
+
+#~ msgid "Pegue aqui la ruta de la imagen desde el administrador de <a href=\""
+#~ msgstr "Paste here the image's url from <a href=\""
+
+#~ msgid "Mensaje"
+#~ msgstr "Mesage"
+
+#~ msgid "Mensaje Principal"
+#~ msgstr "Main Mesage"
+
+#~ msgid "Escriba un texto corto promocional para este banner."
+#~ msgstr "Write a promo text for this banner"
+
+#~ msgid "Boton \"Call to Action\""
+#~ msgstr "\"Call to Action\" buton"
+
+#~ msgid "Texto del Boton"
+#~ msgstr "Buton text"
+
+#~ msgid "Link del Boton"
+#~ msgstr "Buton Link"
+
+#~ msgid "Alineación"
+#~ msgstr "Alignment"
+
+#~ msgid "Derecha"
+#~ msgstr "Right"
+
+#~ msgid "Centro"
+#~ msgstr "Center"
+
+#~ msgid "Izquierda"
+#~ msgstr "Left"
+
+#~ msgid "Direccion"
+#~ msgstr "Address"
+
+#~ msgid "Geolocalización"
+#~ msgstr "Geolocation"
+
+#~ msgid "Coordenadas de Google Maps"
+#~ msgstr "Google Maps Coords"
+
+#~ msgid "Introduzca las coordenadas del lugar."
+#~ msgstr "Enter the coordinates of the place."
+
+#~ msgid "Contacto y Redes Sociales"
+#~ msgstr "Contact & Social Network Info"
+
+#~ msgid "Teléfono de Oficina"
+#~ msgstr "Office Telephone"
+
+#~ msgid "Correo Electrónico"
+#~ msgstr "Email"
+
+#~ msgid "Coloque aqui la dirección completa de su perfil en esta red."
+#~ msgstr "Write the entire URL of the social network"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Fregadero"
+#~ msgstr "DishWasher"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Fregaderos"
+#~ msgstr "DishWashers"
+
+#~ msgid "Item Padre:"
+#~ msgstr "Parent ítem:"
+
+#~ msgid "Todos los items"
+#~ msgstr "All items"
+
+#~ msgid "Agregar nuevo item"
+#~ msgstr "Add new ítem"
+
+#~ msgid "Nuevo Item"
+#~ msgstr "New item"
+
+#~ msgid "Editar Item"
+#~ msgstr "Edit item"
+
+#~ msgid "Actualizar Item"
+#~ msgstr "Update item"
+
+#~ msgid "Ver Item"
+#~ msgstr "View item"
+
+#~ msgid "Buscar Item"
+#~ msgstr "Search ítem"
+
+#~ msgid "No encontrado"
+#~ msgstr "Not found"
+
+#~ msgid "No encontrado en papelera"
+#~ msgstr "Not found on trash"
+
+#~ msgid "Fregaderos de Frinox"
+#~ msgstr "Frinox's DishWashers"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Accesorio"
+#~ msgstr "Accessory"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Accesorios"
+#~ msgstr "Accessories"
+
+#~ msgid "Accesorios de Frinox"
+#~ msgstr "Frinox's Accessories"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Series"
+#~ msgstr "Series"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Serie"
+#~ msgstr "Serie"
+
+#~ msgid "Series"
+#~ msgstr "Series"
+
+#~ msgid "Item padre"
+#~ msgstr "Parent ítem:"
+
+#~ msgid "Item padre:"
+#~ msgstr "Parent ítem:"
+
+#~ msgid "Nuevo nombre"
+#~ msgstr "New name"
+
+#~ msgid "Editar item"
+#~ msgstr "Edit item"
+
+#~ msgid "Actualizar item"
+#~ msgstr "Update item"
+
+#~ msgid "Ver item"
+#~ msgstr "View item"
+
+#~ msgid "Separe con comas"
+#~ msgstr "Separate with comas"
+
+#~ msgid "Agregar o quitar items"
+#~ msgstr "Add or remove items"
+
+#~ msgid "Escoja de los mas usados"
+#~ msgstr "Pick from most used"
+
+#~ msgid "Items populares"
+#~ msgstr "Most popular"
+
+#~ msgid "Buscar items"
+#~ msgstr "Search ítem"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Acabados"
+#~ msgstr "Workmanship"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Acabado"
+#~ msgstr "Workmanship"
+
+#~ msgid "Acabados"
+#~ msgstr "Workmanship"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Materiales"
+#~ msgstr "Materials"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Material"
+#~ msgstr "Material"
+
+#~ msgid "Materiales"
+#~ msgstr "Materials"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Calibres"
+#~ msgstr "Calibers"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Calibre"
+#~ msgstr "Caliber"
+
+#~ msgid "Calibres"
+#~ msgstr "Calibers"
+
+#~ msgid "Comparar"
+#~ msgstr "Compare"
+
+#~ msgid "Archivo .pdf / .docx"
+#~ msgstr ".pdf / .doc file"
+
+#~ msgid "Seleccione un archivo de su disco duro."
+#~ msgstr "Select a file from your hard drive."
+
+#~ msgid "Yellow"
+#~ msgstr "Amarillo"
+
+#~ msgid "Purple"
+#~ msgstr "Púrpura"
+
+#~ msgid "Blue"
+#~ msgstr "Azul"
+
+#~ msgctxt "string url"
+#~ msgid "inicio"
+#~ msgstr "home"
+
+#~ msgid "Volver"
+#~ msgstr "Go back"
+
+#~ msgctxt "string url"
+#~ msgid "contacto"
+#~ msgstr "contact"
+
+#~ msgid "Ir a Contacto"
+#~ msgstr "Go to Contact"
+
+#~ msgid "esta es la pagina de inicio"
+#~ msgstr "this is the index page"
+
+#~ msgid "este es otro texto par aprobar"
+#~ msgstr "This is another testing text"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Producto"
+#~ msgstr "Product"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Productos"
+#~ msgstr "Products"
+
+#~ msgid "productos"
+#~ msgstr "products"
+
+#~ msgid "Productos de Frinox"
+#~ msgstr "Frinox's products"
+
+#~ msgctxt "frinox"
+#~ msgid "Contacto"
+#~ msgstr "Contact"
+
+#~ msgctxt "string url"
+#~ msgid "Contacto"
+#~ msgstr "Contact"
+
+#~ msgid "Coordenadas"
+#~ msgstr "Coords"
+
+#~ msgid "Ingredientes"
+#~ msgstr "Ingredients"
+
+#~ msgid "Ingrediente"
+#~ msgstr "Ingredient"
+
+#~ msgid "Porciones"
+#~ msgstr "Portions"
+
+#~ msgctxt "string url"
+#~ msgid "nosotros"
+#~ msgstr "about-us"
+
+#~ msgid "Información Adicional"
+#~ msgstr "Aditional Information"
+
+#, fuzzy
+#~ msgid "Facebook"
+#~ msgstr "Facebook App"
+
+#~ msgid "Correos Electrónicos"
+#~ msgstr "Emails"
+
+#~ msgctxt "frinox"
+#~ msgid "esta es la pagina de inicio"
+#~ msgstr "this is the index page"
+
+#~ msgid "CATEGORÍAS"
+#~ msgstr "CATEGORIES"
+
+#~ msgid "MARCAS"
+#~ msgstr "BRANDS"
+
+#~ msgid "Nuestras Tiendas"
+#~ msgstr "Our Stores"
+
+#~ msgid "Contacto Rapido"
+#~ msgstr "Quick Contact"
+
+#~ msgid "NOMBRE"
+#~ msgstr "NAME"
+
+#~ msgid "CORREO ELECTRÓNICO"
+#~ msgstr "E-MAIL"
+
+#~ msgid "PAÍS"
+#~ msgstr "COUNTRY"
+
+#~ msgid "COMENTARIOS"
+#~ msgstr "COMMENTS"
+
+#~ msgid "Acepto los"
+#~ msgstr "I accept the"
+
+#~ msgid "terminos y condiciones"
+#~ msgstr "terms and conditions"
+
+#~ msgid "ENVIAR"
+#~ msgstr "SEND"
+
+#~ msgid "Mapa del Sitio"
+#~ msgstr "Sitemap"
+
+#~ msgid "Nosotros"
+#~ msgstr "About Us"
+
+#~ msgctxt "string url"
+#~ msgid "recetas"
+#~ msgstr "recipes"
+
+#~ msgid "Recetas"
+#~ msgstr "Recipes"
+
+#~ msgctxt "string url"
+#~ msgid "ventas-institucionales"
+#~ msgstr "institutional-sales"
+
+#~ msgid "Ventas Institucionales"
+#~ msgstr "Institutional Sales"
+
+#~ msgctxt "string url"
+#~ msgid "tiendas"
+#~ msgstr "stores"
+
+#~ msgid "Encu&eacute;ntranos"
+#~ msgstr "Find Us"
+
+#~ msgid "Categor&iacute;as"
+#~ msgstr "Categories"
+
+#~ msgid "Social Media"
+#~ msgstr "Social Media"
+
+#~ msgid "Subscripci&oacute;n al bolet&iacute;n"
+#~ msgstr "Newsletter"
+
+#~ msgid "Otro proyecto desarrollado por"
+#~ msgstr "Another project developed by"
+
+#~ msgid "Misión"
+#~ msgstr "Mission"
+
+#~ msgid "Visión"
+#~ msgstr "Vision"
+
+#~ msgid "Slogan"
+#~ msgstr "Slogan"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Recetas"
+#~ msgstr "Recipes"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Recetas"
+#~ msgstr "Recipe"
+
+#~ msgid "Todas las recetas"
+#~ msgstr "All recipes"
+
+#~ msgid "Crear nueva receta"
+#~ msgstr "Create new recipe"
+
+#~ msgid "Nueva receta"
+#~ msgstr "New recipe"
+
+#~ msgctxt "recetas"
+#~ msgid "recetas"
+#~ msgstr "recipes"
+
+#~ msgid "recetas"
+#~ msgstr "recipes"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Tipos de Recetas"
+#~ msgstr "Types of Recipes"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Tipo de Receta"
+#~ msgstr "Recipe type"
+
+#~ msgid "Tipos de Recetas"
+#~ msgstr "Types of Recipes"
+
+#~ msgid "Todos las Recetas"
+#~ msgstr "All Recipes"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Marcas"
+#~ msgstr "Brands"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Marcas"
+#~ msgstr "Brand"
+
+#~ msgid "Marcas"
+#~ msgstr "Brands"
+
+#~ msgid "Todos las Marcas"
+#~ msgstr "All Brands"
+
+#, fuzzy
+#~ msgid "Agregar nueva Marca"
+#~ msgstr "Create new recipe"
+
+#~ msgid "Actualizar Marcas"
+#~ msgstr "Update Brands"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Tiendas"
+#~ msgstr "Stores"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Tienda"
+#~ msgstr "Store"
+
+#~ msgid "Tiendas"
+#~ msgstr "Stores"
+
+#~ msgid "Todas las tiendas"
+#~ msgstr "All stores"
+
+#~ msgctxt "tiendas"
+#~ msgid "tiendas"
+#~ msgstr "stores"
+
+#~ msgid "tiendas"
+#~ msgstr "stores"
+
+#~ msgid "Publicidad"
+#~ msgstr "Advertising"
+
+#~ msgid "Hola"
+#~ msgstr "Hello"
+
+#~ msgid "[Cerrar Sesión]"
+#~ msgstr "[Logout]"
+
+#~ msgid "NOSOTROS"
+#~ msgstr "ABOUT US"
+
+#~ msgid "RECETAS"
+#~ msgstr "RECIPES"
+
+#~ msgid "VENTAS INSTITUCIONALES"
+#~ msgstr "INSTITUTIONAL SALES"
+
+#~ msgid "ENCUÉNTRANOS"
+#~ msgstr "FIND US"
+
+#~ msgid "Encuéntranos"
+#~ msgstr "Find Us"
+
+#~ msgid "Empezar proceso"
+#~ msgstr "Start process"
+
+#~ msgid "DESCRIPCIÓN DEL PRODUCTO"
+#~ msgstr "PRODUCT DESCRIPTION"
+
+#~ msgid "CARACTERÍSTICAS"
+#~ msgstr "FEATURES"
+
+#~ msgid "RECETAS QUE NECESITAN DE ESTE PRODUCTO"
+#~ msgstr "RECIPES THAT NEED OF THIS PRODUCT"
+
+#~ msgid "INGREDIENTES"
+#~ msgstr "INGREDIENTS"
+
+#~ msgid "PROCEDIMIENTO"
+#~ msgstr "PROCEDURE"
+
+#~ msgid "PRODUCTOS USADOS EN ESTA RECETA"
+#~ msgstr "PRODUCTS USED IN THIS RECIPE"
+
+#~ msgid "COMPRAR AHORA"
+#~ msgstr "SHOP NOW"
+
+#~ msgctxt "mnt"
+#~ msgid "productos"
+#~ msgstr "items"
+
+#~ msgctxt "mnt"
+#~ msgid "producto"
+#~ msgstr "item"
+
+#~ msgid "Home"
+#~ msgstr "Inicio"
+
+#~ msgid "About Us"
+#~ msgstr "¿Quiénes Somos?"
+
+#~ msgid "Blog"
+#~ msgstr "Blog"
+
+#~ msgid "Legal"
+#~ msgstr "Legal"
+
+#~ msgid "Affiliates"
+#~ msgstr "Afiliados"
+
+#~ msgid "Cookie Policy"
+#~ msgstr "Política de Cookies"
+
+#~ msgid "Calling Guide"
+#~ msgstr "Guía Telefónica"
+
+#, fuzzy
+#~ msgid "Services"
+#~ msgstr "Servicios Telefónicos"
+
+#~ msgid "Pay as you Go"
+#~ msgstr "Postpago"
+
+#~ msgid "Smart Home Phone Service"
+#~ msgstr "Servicio Telefónico Inteligente"
+
+#~ msgid "GSM / Sim card"
+#~ msgstr "GSM / Sim card"
+
+#~ msgid "Android App"
+#~ msgstr "Android App"
+
+#~ msgid "Apple iOS App"
+#~ msgstr "Apple iOS App"
+
+#~ msgid "Windows Phone App"
+#~ msgstr "Windows Phone App"
+
+#~ msgid "Phone Services"
+#~ msgstr "Servicios Telefónicos"
+
+#, fuzzy
+#~ msgid "Pay as yo Go"
+#~ msgstr "Postpago"
+
+#, fuzzy
+#~ msgid "Smart Phone Unlimited"
+#~ msgstr "Servicio Telefónico Inteligente"
+
+#, fuzzy
+#~ msgid "Smart Phone 500 Min"
+#~ msgstr "Servicio Telefónico Inteligente"
+
+#, fuzzy
+#~ msgid "Global Roaming Pay as you Go"
+#~ msgstr "Postpago"
+
+#~ msgid "Our Apps"
+#~ msgstr "Aplicaciones"
+
+#~ msgid "Sign In"
+#~ msgstr "Registrarse"
+
+#, fuzzy
+#~ msgid "Search Rates"
+#~ msgstr "Buscar"
+
+#~ msgid "Green"
+#~ msgstr "Verde"
+
+#~ msgid "Red"
+#~ msgstr "Rojo"
+
+#, fuzzy
+#~ msgid "Worlwide Service"
+#~ msgstr "Servicios Telefónicos"
+
+#~ msgid "Search"
+#~ msgstr "Buscar"
+
+#~ msgid "4 things Global Link"
+#~ msgstr "4 cosas en las que Global Link"
+
+#~ msgid "is really good at!"
+#~ msgstr "es realmente bueno!"
+
+#~ msgid "Online Support"
+#~ msgstr "Soporte En-línea"
+
+#~ msgid "about-us"
+#~ msgstr "¿Quiénes Somos?"
