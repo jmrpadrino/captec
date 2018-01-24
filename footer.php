@@ -44,7 +44,7 @@
 					<div class="row">
 						<div class="col-sm-12">
 							<span class="sub">Captec S.A. © Copyright 2017 - <?php _e('Todos los derechos reservados','captec'); ?></span>
-							<span class="sub pull-right"><a href="mailto:jmrpadrino@gmail.com">Un desarrollo de Jose Manuel Rodríguez Padrino</a></span>
+							<span class="sub pull-right"><a href="https://choclomedia.com/" target="_blank">Un desarrollo de Choclomedia</a></span>
 						</div>
 					</div>
 					
