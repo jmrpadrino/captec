@@ -98,75 +98,36 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-6 col-sm-7 col-sm-offset-5 content clearfix">
-							<h1>Nombre producto 1<br>algun texto de llamada a la acción.</h1>
-							<p class="lead">
-								Este es un párrafo para explicar brevemente el producto ofertado y el tipo de  empresas al que va dirigido. este espacio funciona aleatoriamente mostrando además información o imágen relacionada con el producto.
-							</p>
-						
+							<h1><?= _e('Servicios', 'captec'); ?></h1>
+							<p class="lead"><?= _e('Los servicios que CAPTEC S.A. ofrece, se basan en su infraestructura tecnol&oacute;gica y operativa lo que permite','captec') ?>:</p>
+							
+							<?php 
+                                //producto
+                                $args = array(
+                                    'post_type' => 'captecservices',
+                                    'posts_per_page' => -1,
+                                    'orderby' => 'post_date',
+                                    'order' => 'ASD'
+                                );
+                                $servicios = get_posts($args);
+                                
+                                foreach($servicios as $servicio){
+                            ?>
 							<div class="row">
-								<div class="col-md-6 no-pad-left">
+								<div class="col-md-12 no-pad-left">
 									<div class="feature feature-icon-left">
-										<div class="icon-holder">
-											<i class="icon icon-genius"></i>
-										</div>
-										<div class="feature-text">
-											<h6>Característica 1</h6>
-											<p>
-												Texto para explicar la característica 1, quizas no mayor a dos o tres lineas de texto. Incluir palabras clave. 
-											</p>
-										</div>
-									</div>
-								</div><!--end of feature-->
-						
-								<div class="col-md-6 no-pad-left">
-									<div class="feature feature-icon-left">
-										<div class="icon-holder">
-											<i class="icon icon-flag"></i>
-										</div>
-										<div class="feature-text">
-											<h6>Característica 2</h6>
-											<p>
-												Texto para explicar la característica 2, quizas no mayor a dos o tres lineas de texto. Incluir palabras clave. 
-											</p>
+										<div class="feature-text1">
+											<h6><i class="icon icon-flag"></i> <?= $servicio->post_title ?></h6>
 										</div>
 									</div>
 								</div><!--end of feature-->
 							</div><!--end of row-->
-						
-							<div class="row">
-								<div class="col-md-6 no-pad-left">
-									<div class="feature feature-icon-left">
-										<div class="icon-holder">
-											<i class="icon icon-mobile"></i>
-										</div>
-										<div class="feature-text">
-											<h6>Característica 3</h6>
-											<p>
-												Texto para explicar la característica 3, quizas no mayor a dos o tres lineas de texto. Incluir palabras clave. 
-											</p>
-										</div>
-									</div>
-								</div><!--end of feature-->
-						
-								<div class="col-md-6 no-pad-left">
-									<div class="feature feature-icon-left">
-										<div class="icon-holder">
-											<i class="icon icon-clipboard"></i>
-										</div>
-										<div class="feature-text">
-											<h6>Característica 4</h6>
-											<p>
-												Texto para explicar la característica 4, quizas no mayor a dos o tres lineas de texto. Incluir palabras clave. 
-											</p>
-										</div>
-									</div>
-								</div><!--end of feature-->
-							</div><!--end of row-->
+							<?php } ?>
 							
 							<div class="row">
 							    <div class="col-md-12">
-							        <a href="#" class="btn btn-primary"><?php _e('Ver producto','captec'); ?></a>
-							        <a href="#" class="btn btn-primary btn-text-only"><?php _e('Sepa m&aacute;s','captec'); ?></a>
+							        <a href="<?= home_url('servicios') ?>" class="btn btn-primary"><?php _e('Ver Servicios','captec'); ?></a>
+							        <a href="<?= home_url('contacto') ?>" class="btn btn-primary btn-text-only"><?php _e('Sepa m&aacute;s','captec'); ?></a>
 							    </div>
 							</div>
 					

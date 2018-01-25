@@ -27,10 +27,10 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
-							<h2 class="vis">Para nosotros es un placer<br />que hablemos de su proyecto.</h2>
-							<p class="lead">
+							<h2 class="vis"><?= _e('Para nosotros es un placer<br />que hablemos de su proyecto.','captec') ?></h2>
+							<!--p class="lead">
 								Este es un párrafo para persuadir e invitar al usuario a que envíe un mensaje a través del formulario presentado, este texto no debe ser mayor que dos o tres líneas.
-							</p>
+							</p-->
 						</div>
 					</div><!--end of row-->
 					
@@ -56,14 +56,16 @@
 					</div><!--end of row-->
 				</div><!--end of container-->
 			</section>
-			<section class="google-maps">
-			    <div id="map-zone"></div>
-			    <script>
+			<section class="google-maps" style="padding: 0; overflow: auto; height: 420px;">
+			    <div id="map-zone" style="height: 420px;"></div>
+			    <script type="text/javascript">
+                    
                     function initMap() {
-                        var myLatLng = {lat: -0.2471909, lng: -78.5263265};
+                        //-0.180743, -78.479987
+                        var myLatLng = {lat: -0.180743, lng: -78.479987};
                         var markericon = '<?php echo get_template_directory_uri(); ?>/images/gMaps-captec-logo.png';
                         var map = new google.maps.Map(document.getElementById('map-zone'), {
-                            zoom: 17,
+                            zoom: 18,
                             center: myLatLng,
                             zoomControl: true,
                             disableDoubleClickZoom: false,
@@ -72,7 +74,7 @@
                             scrollwheel: false,
                             panControl: true,
                             streetViewControl: false,
-                            draggable : false,
+                            draggable : true,
                             overviewMapControl: false,
                             overviewMapControlOptions: {
                                 opened: false,
@@ -84,12 +86,11 @@
                             icon: markericon,
                             position: myLatLng,
                             map: map,
-                            title: '<?php echo $termino->name; ?>'
+                            title: 'Captec'
                           });
                         }
                 </script>
-                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjjwxFAJedRfOaXCpDrIs5NjRaGJI395g&callback=initMap"
-            async defer></script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQyfc5EQnMLR5rHsRND9c8g0cdHanDLBs&callback=initMap"></script>
 			</section>
 		</div>
 <?php get_footer(); ?>
