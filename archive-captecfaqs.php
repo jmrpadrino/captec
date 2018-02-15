@@ -1,72 +1,92 @@
 <?php get_header(); ?>
-            <section class="hero-divider">
-				<div class="background-image-holder parallax-background overlay">
-					<img class="background-image" alt="Poster Image For Mobiles" src="<?php echo get_template_directory_uri() . '/images/productos-de-captecsa.jpg'; ?>">
-				</div>
-				
-				<div class="container">
-					<div class="row">	
-						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-							<h1 class="text-white vis vis-up"><?php _e('Productos de Captec S.A.','captec'); ?></h1>
-							<p class="lead text-white">
-								<?php _e('Nuestro equipo posee un amplio conocimiento  en el desarrollo global del producto tarjetas de crédito y débito con marcas internacionales.','captec'); ?>
-							</p>
-							
-							
-						</div>
-					</div><!--end of row-->
-				</div><!--end of row-->
-            </section>
-            <section>	
-				
-				<div class="container">
-					<ul class="selector-content">
-						<li class="clearfix active">
-							<div class="row">
-								<div class="col-sm-8 col-sm-offset-2 text-center">
-								    <h2>Texto SEO para posicionamiento de los productos de Captec S.A.</h2>
-								</div>
-							</div><!--end of row-->
-						</li><!--end of individual feature content-->
-		
-					</ul>
-				</div>		
-<?php if ( have_posts() ){ ?>
-                <div class="projects-container">
-<?php while ( have_posts() ){ the_post(); ?>
-                    <div class="col-md-6 col-sm-12 no-pad project development image-holder">
-                        <div class="background-image-holder">
-                            <?php if ( has_post_thumbnail() ){ ?>
-                            <?php the_post_thumbnail(); ?>
-                            <?php }else{ ?>
-                            <img class="background-image" alt="Background Image" src="<?php echo get_template_directory_uri() . '/images/default-list-captecsa.jpg'; ?>">
-                            <?php } ?>
-                        </div>
-                        <div class="hover-state">
-                            <div class="align-vertical">
-                                <h2 class="text-white"><?php the_title(); ?></h2>
-                                <p class="text-white">
-                                    <?php the_excerpt(); ?>
-                                </p>
-                                <a href="<?php the_permalink(); ?>" class="btn btn-primary btn-white"><?php _e('Ver este Producto','captec'); ?></a>
+<section class="hero-divider">
+    <div class="background-image-holder parallax-background overlay">
+        <img class="background-image" alt="Poster Image For Mobiles" src="<?php echo get_template_directory_uri() . '/images/productos-de-captecsa.jpg'; ?>">
+    </div>
+
+    <div class="container">
+        <div class="row">	
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                <h1 class="text-white vis vis-up">FAQ's</h1>
+                <p class="lead text-white">
+                    <?php _e('Sabemos que usted tiene dudas en relación con algunas cosas sobre Captec S.A., por eso hemos destinado este espacio para cubrir todos esto aspectos.','captec'); ?>
+                </p>
+
+
+            </div>
+        </div><!--end of row-->
+    </div><!--end of row-->
+</section>
+<section>	
+
+    <div class="container">
+        <ul class="selector-content">
+            <li class="clearfix active">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 text-center">
+                        <p class="lead"><?php _e('Hemos seleccionado una serie de preguntar para resolver dudas sobre algunos temas, <br />si persiste su duda, envíenos un mensaje llendo a la p&aacute;gina de ','captec'); ?><a href="<?php echo home_url('contacto'); ?>"><?php _e('contacto','captec'); ?></a></p>
+                    </div>
+                </div><!--end of row-->
+            </li><!--end of individual feature content-->
+
+        </ul>
+    </div>		
+    <?php if ( have_posts() ){ $i = 0;?>
+    <div class="projects-container" style="min-heigt: 150px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <?php while ( have_posts() ){ the_post(); ?>
+                    <?php if ( $i < 1 ){ ?>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading<?php echo $i; ?>">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $i; ?>" aria-expanded="true" aria-controls="collapse<?php echo $i; ?>">
+                                        <?php the_title(); ?>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse<?php echo $i; ?>" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading<?php echo $i; ?>">
+                                <div class="panel-body">
+                                    <?php the_content(); ?>
+                                </div>
                             </div>
                         </div>
-                    </div><!--end of individual project-->
-<?php } ?>
-					
-				</div><!--end of projects-container-->
-<?php
-    }else{
-?>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 text-center">
-                            <h1>Lo sentimos aun no hay publicaciones aqui. </h1>
+                    <?php }else{ ?>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading<?php echo $i; ?>">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $i; ?>" aria-expanded="false" aria-controls="collapse<?php echo $i; ?>">
+                                        <?php the_title(); ?>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse<?php echo $i; ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?php echo $i; ?>">
+                                <div class="panel-body">
+                                    <?php the_content(); ?>
+                                </div>
+                            </div>
                         </div>
+                    <?php } ?>
+                    <?php $i++; } ?>
                     </div>
                 </div>
-<?php
-    }
-?>
-            </section>
+            </div>
+        </div>
+    </div><!--end of projects-container-->
+    <?php
+                             }else{
+    ?>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h1>Lo sentimos aun no hay publicaciones aqui. </h1>
+            </div>
+        </div>
+    </div>
+    <?php
+}
+    ?>
+</section>
 <?php get_footer(); ?>

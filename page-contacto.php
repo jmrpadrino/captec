@@ -59,7 +59,6 @@
 			<section class="google-maps" style="padding: 0; overflow: auto; height: 420px;">
 			    <div id="map-zone" style="height: 420px;"></div>
 			    <script type="text/javascript">
-                    
                     function initMap() {
                         //-0.180743, -78.479987
                         var myLatLng = {lat: -0.180743, lng: -78.479987};

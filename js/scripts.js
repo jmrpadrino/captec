@@ -287,20 +287,48 @@ $(document).ready(function(){
 			loadingSpinner = $('<div />').addClass('form-loading').insertAfter($(thisForm).find('input[type="submit"]'));
 			$(thisForm).find('input[type="submit"]').hide();
             
-            jQuery.ajax({
-                type: "POST",
-                url: "mail/mail.php",
-                data: thisForm.serialize(),
-                success: function (response) {
-                	// Swiftmailer always sends back a number representing numner of emails sent.
-					// If this is numeric (not Swift Mailer error text) AND greater than 0 then show success message.
-					$(thisForm).find('.form-loading').remove();
+            console.log('enviando');
+            var name = $('input[name=name]');
+            var email = $('input[name=email]');
+            //var phone = $('input[name=phone]');
+            var inquiry = $('textarea[name=message]');
+
+            $.ajax({
+                type        : 'POST', 
+                url         : captec.ajaxurl, 
+                data        : 
+                {
+                    'action': 'ajaxConversion',
+                    'action': 'send_mail_via_ajax',
+                    //'g-recaptcha-response': grecaptcha.getResponse(),
+                    'name' : name.val(),
+                    'email' : email.val(),
+                    //'phone' : phone.val(),
+                    'inquiry' : inquiry.val()
+                },
+                dataType: 'text',
+                error       : function(errorObject, errorText, errorHTTP){
+                    console.log(errorObject);
+                    thisForm.find('.form-error').attr('original-error', thisForm.find('.form-error').text());
+					// Show the error with the returned error text.
+					thisForm.find('.form-error').text(errorHTTP).fadeIn(1000);
+					thisForm.find('.form-success').fadeOut(1000);
+                	$(thisForm).find('.form-loading').remove();
+					$(thisForm).find('input[type="submit"]').show();
+                },
+                success     : function(response){
+                    console.log(response);
+                    
+                    $(thisForm).find('.form-loading').remove();
 					$(thisForm).find('input[type="submit"]').show();
 					if($.isNumeric(response)){
 						if(parseInt(response) > 0){
 							thisForm.find('.form-success').fadeIn(1000);
 							thisForm.find('.form-error').fadeOut(1000);
 							setTimeout(function(){ thisForm.find('.form-success').fadeOut(500); }, 5000);
+                            name.val('');
+                            email.val('');
+                            inquiry.val('');
 						}
 					}
 					// If error text was returned, put the text in the .form-error div and show it.
@@ -311,15 +339,6 @@ $(document).ready(function(){
 						thisForm.find('.form-error').text(response).fadeIn(1000);
 						thisForm.find('.form-success').fadeOut(1000);
 					}
-                },
-                error: function (errorObject, errorText, errorHTTP) {
-                	// Keep the current error text in a data attribute on the form
-					thisForm.find('.form-error').attr('original-error', thisForm.find('.form-error').text());
-					// Show the error with the returned error text.
-					thisForm.find('.form-error').text(errorHTTP).fadeIn(1000);
-					thisForm.find('.form-success').fadeOut(1000);
-                	$(thisForm).find('.form-loading').remove();
-					$(thisForm).find('input[type="submit"]').show();
                 }
             });
         }

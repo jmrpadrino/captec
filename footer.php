@@ -23,7 +23,7 @@
                             Av. República del Salvador N35-82 y Portugal<br>
                             Edificio Twin Towers Piso 11 Ofic. A-B<br>
                             Quito - Ecuador<br>
-                            C.P. 15053 ??
+                            C.P. 170505
                             </address>
 						</div>
 						
@@ -60,7 +60,7 @@
         <script src="<?php echo get_template_directory_uri(); ?>/js/skrollr.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/scrollReveal.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/lightbox.min.js"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
+        <!--script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script-->
         <?php wp_footer(); ?>
     </body>
 </html>

@@ -1,4 +1,4 @@
-<?php get_header(); the_post(); ?>
+<?php get_header(); the_post(); $prefix = 'captec'; ?>
 		<div class="main-container">
 			<header class="page-header">
 				<?php 
@@ -28,27 +28,21 @@
 						<div class="col-sm-4">
 							<div class="feature">
 								<h5><?php _e('La Oportunidad','captec'); ?></h5>
-								<p>
-									Explicar brevemente cual fue la oportunidad que tenia la empresa, en la cual Captec S.A. fue el prestador del servicio.
-								</p>
+								<p><?php echo get_post_meta( get_the_ID(), $prefix.'oportunidad' ,true ); ?></p>
 							</div>
 						</div><!--end 4 col-->
 					
 						<div class="col-sm-4">
 							<div class="feature">
 								<h5><?php _e('Nuestra Soluci&oacute;n','captec'); ?></h5>
-								<p>
-									Explicar brevemente que tipo de soluciones se prestaron en la implementación de la solucion.
-								</p>
+								<p><?php echo get_post_meta( get_the_ID(), $prefix.'solucion' ,true ); ?></p>
 							</div>
 						</div><!--end 4 col-->
 					
 						<div class="col-sm-4">
 							<div class="feature">
 								<h5><?php _e('Sorprendentes Resultados','captec'); ?></h5>
-								<p>
-									Participar a los visitantes de la web, los resultados promedio luego de la implementación de la solución, de ser posible con datos provenientes del mismo cliente.
-								</p>
+								<p><?php echo get_post_meta( get_the_ID(), $prefix.'resultados' ,true ); ?></p>
 							</div>
 						</div><!--end 4 col-->
 					</div><!--end of row-->
