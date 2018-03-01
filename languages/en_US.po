@@ -1,16 +1,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: foodtruckquito\n"
-"POT-Creation-Date: 2017-06-19 17:14-0400\n"
-"PO-Revision-Date: 2017-06-19 17:18-0400\n"
+"POT-Creation-Date: 2018-02-28 18:57-0500\n"
+"PO-Revision-Date: 2018-02-28 18:57-0500\n"
 "Last-Translator: Jose Rodriguez <jrodriguez@webcreek.com>\n"
 "Language-Team: Choclomedia <ceo@choclomedia.com>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.1\n"
-"X-Poedit-Basepath: ..\\\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_x:2c,1;_ex:2c,1\n"
@@ -66,25 +66,24 @@ msgstr "FAQs"
 msgid "Comunicaciones"
 msgstr "Communications"
 
-#: 404.php:77 footer.php:15 header.php:157 page-sitemap.php:76
+#: 404.php:77 footer.php:13 header.php:157 page-sitemap.php:76
 msgid "Contacto"
 msgstr "Contact"
 
 #: 404.php:98 header.php:136 includes/captecsa-cpt.php:79
-#: includes/captecsa-cpt.php:113 page-sitemap.php:97
+#: includes/captecsa-cpt.php:113 index.php:101 page-sitemap.php:97
 msgid "Servicios"
 msgstr "Services"
 
-#: 404.php:115 header.php:116 includes/captecsa-cpt.php:15
-#: page-sitemap.php:114
+#: 404.php:115 header.php:116 includes/captecsa-cpt.php:15 page-sitemap.php:114
 msgid "Productos"
 msgstr "Products"
 
-#: archive-captecclients.php:10 includes/captecsa-cpt.php:177
+#: archive-captecclients_.php:10 includes/captecsa-cpt.php:177
 msgid "Clientes de Captec S.A."
 msgstr "Captec S.A.'s customers"
 
-#: archive-captecclients.php:12
+#: archive-captecclients_.php:12
 msgid ""
 "As&iacute; como usted, ellos tambien creyeron en los <strong>productos y "
 "servicios de Captec S.A.</strong><br /> Adelante, s&iacute;rvase de "
@@ -93,7 +92,7 @@ msgstr ""
 "Just like you, they also believed in <strong> Captec S.A products and "
 "services </strong><br /> Go ahead, know them now"
 
-#: archive-captecclients.php:49 archive-producto.php:51
+#: archive-captecclients_.php:49 archive-producto.php:52
 msgid "Ver este Producto"
 msgstr "View this product"
 
@@ -102,6 +101,8 @@ msgid ""
 "Sabemos que usted tiene dudas en relación con algunas cosas sobre Captec S."
 "A., por eso hemos destinado este espacio para cubrir todos esto aspectos."
 msgstr ""
+"We know that you have doubts regarding some things about Captec S.A., that "
+"is why we have allocated this space to cover all these aspects."
 
 #: archive-captecfaqs.php:27
 msgid ""
@@ -109,16 +110,19 @@ msgid ""
 "temas, <br />si persiste su duda, envíenos un mensaje llendo a la p&aacute;"
 "gina de "
 msgstr ""
+"We have selected a series of questions to answer questions about some "
+"issues, <br /> if your question persists, send us a message by going to the "
+"page of"
 
 #: archive-captecfaqs.php:27
 msgid "contacto"
 msgstr "contact"
 
-#: archive-captecservices.php:10
+#: archive-captecservices.php:11
 msgid "Servicios de Captec S.A."
 msgstr "Captec S.A.'s Services"
 
-#: archive-captecservices.php:12
+#: archive-captecservices.php:13
 msgid ""
 "Hemos implementado proyectos en diferentes instituciones financieras en "
 "<strong>Colombia</strong> y <strong>Ecuador</strong>, los mismos han sido "
@@ -130,15 +134,23 @@ msgstr ""
 "successfully executed from the Technological, Operational, Financial, "
 "Commercial and Marketing point of view"
 
-#: archive-captecservices.php:53
+#: archive-captecservices.php:26 index.php:102
+msgid ""
+"Los servicios que CAPTEC S.A. ofrece, se basan en su infraestructura "
+"tecnol&oacute;gica y operativa lo que permite"
+msgstr ""
+"The services that CAPTEC S.A. offers, are based on its technological and "
+"operational infrastructure which allows"
+
+#: archive-captecservices.php:54
 msgid "Ver este servicio"
 msgstr "View this service"
 
-#: archive-producto.php:10 includes/captecsa-cpt.php:49
+#: archive-producto.php:11 includes/captecsa-cpt.php:49
 msgid "Productos de Captec S.A."
 msgstr "Captec S.A.'s Products"
 
-#: archive-producto.php:12
+#: archive-producto.php:13
 msgid ""
 "Nuestro equipo posee un amplio conocimiento  en el desarrollo global del "
 "producto tarjetas de crédito y débito con marcas internacionales."
@@ -146,31 +158,42 @@ msgstr ""
 "Our team has extensive knowledge in the global development of credit and "
 "debit cards with international brands."
 
-#: footer.php:21
+#: footer.php:9
+msgid ""
+"Somos una empresa Ecuatoriana dedicada a brindar el servicio de "
+"Asesoramiento, Montaje e Implementación de los Proyectos de ATM’s, Tarjeta "
+"de Crédito y Tarjeta de Débito con su Procesamiento Tecnológico, con marca "
+"internacional."
+msgstr ""
+"We are an Ecuadorian company dedicated to provide the service of Advice, "
+"Assembly and Implementation of ATM Projects, Credit Card and Debit Card with "
+"its Technological Processing, with international brand."
+
+#: footer.php:19
 msgid "Dirección"
 msgstr "Address"
 
-#: footer.php:31
+#: footer.php:29
 msgid "Acompañenos en"
 msgstr "Join us on"
 
-#: footer.php:39
+#: footer.php:37
 msgid "Más..."
 msgstr "More..."
 
-#: footer.php:46
+#: footer.php:44
 msgid "Todos los derechos reservados"
 msgstr "All rights reserved"
 
-#: functions.php:26
+#: functions.php:30
 msgid "Lenguajes"
 msgstr "Languages"
 
-#: functions.php:31
+#: functions.php:35
 msgid "Multi Idioma"
 msgstr ""
 
-#: functions.php:33
+#: functions.php:37
 msgid "Uso exclusivo del qTranslate-x"
 msgstr ""
 
@@ -178,13 +201,17 @@ msgstr ""
 msgid "Tecnología de procesamiento de tarjetas"
 msgstr "Card Processing Technology"
 
-#: header.php:58
+#: header.php:58 page-contacto.php:19 page-quienes-somos.php:65
 msgid "Contactar"
 msgstr "Contact"
 
 #: header.php:70
 msgid "Ir al inicio"
 msgstr "Go to home"
+
+#: header.php:70
+msgid "Inicio"
+msgstr "Home"
 
 #: header.php:71
 msgid "Con&oacute;ce a Captec S.A."
@@ -265,7 +292,7 @@ msgstr ""
 msgid "Actualizar Producto"
 msgstr ""
 
-#: includes/captecsa-cpt.php:26
+#: includes/captecsa-cpt.php:26 index.php:65
 msgid "Ver Producto"
 msgstr ""
 
@@ -375,7 +402,7 @@ msgstr ""
 msgid "Ver Servicio"
 msgstr ""
 
-#: includes/captecsa-cpt.php:91
+#: includes/captecsa-cpt.php:91 index.php:129
 msgid "Ver Servicios"
 msgstr ""
 
@@ -685,33 +712,51 @@ msgid ""
 msgstr ""
 "Card Processing <br> based on a specialized technological infrastructure."
 
-#: index.php:17 index.php:39 index.php:54 index.php:153
+#: index.php:17
+#, fuzzy
+#| msgid ""
+#| "Nuestro equipo posee un amplio conocimiento  en el desarrollo global del "
+#| "producto tarjetas de crédito y débito con marcas internacionales."
+msgid ""
+"Somos una empresa Ecuatoriana, especializada en medios de pago, con un "
+"amplio conocimiento  en el desarrollo global del producto tarjetas de "
+"crédito y débito con marca propia o franquicia internacional, que son "
+"utilizados a través de canales tradicionales y digitales de ultima generación"
+msgstr ""
+"Our team has extensive knowledge in the global development of credit and "
+"debit cards with international brands."
+
+#: index.php:19 index.php:41 index.php:66 index.php:130
 msgid "Sepa m&aacute;s"
 msgstr "Learn more"
 
-#: index.php:34
+#: index.php:36
 msgid "Su socio tecnológico en Tarjetas de crédito y débito."
 msgstr "Your technology partner in Credit and Debit Cards."
 
-#: index.php:38
+#: index.php:40
 msgid "Nuestros servicios"
 msgstr "Our services"
 
-#: index.php:53
-msgid "Ver servicio"
-msgstr "View service"
-
-#: index.php:152
-msgid "Ver producto"
-msgstr "View Product"
-
-#: index.php:171
+#: index.php:148
 msgid ""
 "Acompañenos siempre haciendo clic <strong><a href=\"#\">aqui</a></strong> y "
 "mantengamos contacto."
 msgstr ""
 "Join us always by clicking <strong><a href=\"#\">here</a></strong> and let's "
 "keep in touch"
+
+#: page-clientes.php:47 page-quienes-somos.php:97
+msgid "Ellos confian en nosotros, le esperamos"
+msgstr "They trust us, we wait for you"
+
+#: page-contacto.php:18
+msgid "Le invitamos a"
+msgstr "We welcome"
+
+#: page-contacto.php:30
+msgid "Para nosotros es un placer<br />que hablemos de su proyecto."
+msgstr "For us it is a pleasure <br /> that we talk about your project."
 
 #: page-contacto.php:42 single-producto.php:46
 msgid "Su nombre"
@@ -721,21 +766,37 @@ msgstr "Your name"
 msgid "Su correo electrónico"
 msgstr "Your email"
 
-#: page-contacto.php:44 single-producto.php:48
+#: page-contacto.php:44
+#, fuzzy
+#| msgid "Teléfono"
+msgid "Su teléfono"
+msgstr "Phone"
+
+#: page-contacto.php:45 single-producto.php:48
 msgid "Su mensaje"
 msgstr "Your message"
 
-#: page-contacto.php:46 single-producto.php:50
+#: page-contacto.php:47 single-producto.php:50
 msgid "Enviar"
 msgstr "Submit"
 
-#: page-contacto.php:48 single-producto.php:52
+#: page-contacto.php:49 single-producto.php:52
 msgid "Mensaje enviado, gracias por contactar."
 msgstr "Message sent, thanks for contact."
 
-#: page-contacto.php:51 single-producto.php:55
+#: page-contacto.php:52 single-producto.php:55
 msgid "Por favor complete la información en todos los campos disponibles."
 msgstr "Please complete the information in all available fields."
+
+#: page-quienes-somos.php:20
+msgid "Somos Member Service Provider (MSP) de MasterCard"
+msgstr "We are MasterCard Member Service Provider (MSP)"
+
+#: page-quienes-somos.php:55
+#, fuzzy
+#| msgid "Clientes de Captec S.A."
+msgid "El Equipo Captec S.A."
+msgstr "Captec S.A.'s customers"
 
 #: page-quienes-somos.php:64
 msgid "Presidente Ejecutivo"
@@ -744,6 +805,12 @@ msgstr "CEO"
 #: page-quienes-somos.php:73
 msgid "Gerente General"
 msgstr "General Manager"
+
+#: page-quienes-somos.php:74
+#, fuzzy
+#| msgid "Envíe un mensaje"
+msgid "Enviar mensaje"
+msgstr "Send a messaje"
 
 #: page-sitemap.php:18
 msgid "Captec S.A. a un clic"
@@ -754,16 +821,18 @@ msgid ""
 "Est&aacute; a un clic de la informaci&oacute;n que Captec S.A., tiene para "
 "usted. <br/> <strong>Bienvenido</strong>"
 msgstr ""
+"This is just one click away from the information that Captec S.A. has for "
+"you. <br/> <strong> Welcome </ strong>"
 
-#: single-captecclients.php:30
+#: single-captecclients.php:30 single-capteclients.php:30
 msgid "La Oportunidad"
 msgstr "The opportunity"
 
-#: single-captecclients.php:39
+#: single-captecclients.php:37 single-capteclients.php:39
 msgid "Nuestra Soluci&oacute;n"
 msgstr "Our solution"
 
-#: single-captecclients.php:48
+#: single-captecclients.php:44 single-capteclients.php:48
 msgid "Sorprendentes Resultados"
 msgstr "Amazing results"
 
@@ -777,7 +846,13 @@ msgstr "Product description"
 
 #: single-producto.php:43
 msgid "Consulte sobre este producto"
-msgstr ""
+msgstr "Ask about this product"
+
+#~ msgid "Ver servicio"
+#~ msgstr "View service"
+
+#~ msgid "Ver producto"
+#~ msgstr "View Product"
 
 #~ msgid "Anterior"
 #~ msgstr "Previous"
@@ -817,9 +892,6 @@ msgstr ""
 #~ "apparently see a proliferation of food supply under this modality.</p><p> "
 #~ "In Quito, food trucks appeared in 2014 with three gastronomic offerings "
 #~ "that doubled by 2015.</p>"
-
-#~ msgid "Teléfono"
-#~ msgstr "Phone"
 
 #~ msgid "¿Conóces estos Food Parks en Quito? - #SigueLaRuta"
 #~ msgstr "Do you know these Food Parks in Quito? - #FollowTheRoute"
@@ -885,9 +957,6 @@ msgstr ""
 #~ "family. Therefore, we are happy to announce that we are reinventing our "
 #~ "list of services. We do custom work to help you in your "
 #~ "<strong>WordPress</strong> development."
-
-#~ msgid "Inicio"
-#~ msgstr "Home"
 
 #~ msgctxt "choclomedia"
 #~ msgid "servicios"

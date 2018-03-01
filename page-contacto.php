@@ -15,8 +15,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<span class="text-white alt-font">Le invitamos a</span>
-							<h1 class="text-white">Contactar</h1>
+							<span class="text-white alt-font"><?= _e('Le invitamos a','captec') ?></span>
+							<h1 class="text-white"><?= _e('Contactar','captec') ?></h1>
 							
 						</div>
 					</div><!--end of row-->
@@ -41,6 +41,7 @@
 									<div class="inputs-wrapper">
 										<input class="form-name validate-required" type="text" placeholder="<?php _e('Su nombre'); ?>" name="name">
 										<input class="form-email validate-required validate-email" type="text" name="email" placeholder="<?php _e('Su correo electrónico'); ?>">
+										<input class="form-email validate-required" type="text" name="phone" placeholder="<?php _e('Su teléfono'); ?>">
 										<textarea class="form-message validate-required" name="message" placeholder="<?php _e('Su mensaje'); ?>"></textarea>
 									</div>
 									<input type="submit" class="send-form" value="<?php _e('Enviar'); ?>">

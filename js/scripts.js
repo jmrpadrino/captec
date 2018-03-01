@@ -290,7 +290,7 @@ $(document).ready(function(){
             console.log('enviando');
             var name = $('input[name=name]');
             var email = $('input[name=email]');
-            //var phone = $('input[name=phone]');
+            var phone = $('input[name=phone]');
             var inquiry = $('textarea[name=message]');
 
             $.ajax({
@@ -303,7 +303,7 @@ $(document).ready(function(){
                     //'g-recaptcha-response': grecaptcha.getResponse(),
                     'name' : name.val(),
                     'email' : email.val(),
-                    //'phone' : phone.val(),
+                    'phone' : phone.val(),
                     'inquiry' : inquiry.val()
                 },
                 dataType: 'text',

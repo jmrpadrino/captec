@@ -67,7 +67,7 @@
 					
 						<div class="col-sm-12 col-md-12 columns">
 							<ul class="menu">
-				                <li><a href="<?php echo home_url(); ?>" title="<?php _e('Ir al inicio', 'captec'); ?>">Inicio</a></li>
+				                <li><a href="<?php echo home_url(); ?>" title="<?php _e('Ir al inicio', 'captec'); ?>"><?php _e('Inicio', 'captec'); ?></a></li>
 								<li class="has-dropdown"><a href="#" title="<?php _e('Con&oacute;ce a Captec S.A.', 'captec') ?>"><?php _e('La Empresa','captec'); ?></a>
 									<div class="subnav subnav-fullwidth">
 										<div class="col-md-3">
@@ -88,13 +88,13 @@
 										</div>
 										
 										<div class="col-md-3">
-											<a class="btn btn-primary" href="#"><?php _e('¿Alguna duda?','captec'); ?></a>
-											<a class="btn btn-primary btn-filled" href="#"><?php _e('Envíe un mensaje','captec'); ?></a>
+											<a class="btn btn-primary" href="<?= home_url('faqs') ?>"><?php _e('¿Alguna duda?','captec'); ?></a>
+											<a class="btn btn-primary btn-filled" href="<?= home_url('contacto') ?>"><?php _e('Envíe un mensaje','captec'); ?></a>
 										</div>
 									</div>
 								</li>
-								<li class="has-dropdown"><a href="#"><?php _e('Clientes','captec'); ?></a>
-									<ul class="subnav">
+								<li><a href="<?= home_url('clientes') ?>"><?php _e('Clientes','captec'); ?></a>
+									<!--ul class="subnav">
 										<?php 
                                             $args = array(
                                                 'post_type' => 'captecclients',
@@ -111,7 +111,7 @@
                                         ?>
 										<li><a href="<?php echo home_url('clientes'); ?>"><?php _e('Todos los Clientes','captec'); ?></a></li>
 										<?php } //end count productos ?>
-									</ul>
+									</ul-->
 								</li>
 								<li class="has-dropdown"><a href="#"><?php _e('Productos','captec'); ?></a>
 									<ul class="subnav">

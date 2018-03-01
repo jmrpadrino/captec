@@ -16,7 +16,7 @@
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<h1 class="text-white vis vis-up"><?php the_title(); ?></h1>
-							<p class="lead text-white"><?php the_excerpt(); ?></p>
+							<div class="lead text-white"><?php the_excerpt(); ?></div>
 						</div>
 					</div><!--end of row-->
 				</div><!--end of container-->

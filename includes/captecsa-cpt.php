@@ -103,7 +103,7 @@ function captecServices() {
         'filter_items_list'     => __( 'Lista de Filtros Servicios', 'captec' ),
     );
     $rewrite = array(
-        'slug'                  => __('servicio', 'captec'),
+        'slug'                  => 'servicio',
         'with_front'            => true,
         'pages'                 => true,
         'feeds'                 => true,
@@ -187,7 +187,7 @@ function captecClients() {
         'show_in_admin_bar'     => true,
         'show_in_nav_menus'     => true,
         'can_export'            => true,
-        'has_archive'           => 'clientes',
+        'has_archive'           => '',
         'exclude_from_search'   => false,
         'publicly_queryable'    => true,
         'rewrite'               => $rewrite,

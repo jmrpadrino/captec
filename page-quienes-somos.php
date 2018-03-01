@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header(); $prefix = 'captec'; ?>
 <?php the_post(); ?>
         <div class="main-container">
 			<section class="hero-divider">
@@ -17,7 +17,7 @@
 					<div class="row">	
 						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
 						    <img class="text-center" src="<?php echo get_template_directory_uri(); ?>/images/captec-master-card-member-service-provider.png" width="80">
-							<h1 class="text-white">Somos Member Service Provider (MSP) de MasterCard</h1>
+							<h1 class="text-white"><?= _e('Somos Member Service Provider (MSP) de MasterCard', 'captec') ?></h1>
 							
 							<!--p class="lead text-white">
 								Este es un párrafo para explicar brevemente los beneficios de ser MPS. Un texto que no ocupe mas de dos o tres lineas y que tenga las pálabras clave para posicionar el servicio de MPS.
@@ -52,7 +52,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center">
-							<h2 class="vis">El Equipo Captec S.A.</h2>
+							<h2 class="vis"><?= _e('El Equipo Captec S.A.', 'captec') ?></h2>
 						</div>
 					</div><!--end of row-->
 					
@@ -62,7 +62,7 @@
 								<!--img alt="Team Member" src="img/team-small-1.png "-->
 								<h2>Pablo Ramírez Gasca</h2>
 								<h5><?php _e('Presidente Ejecutivo','captec'); ?></h5>
-								<a href="#" class="btn btn-primary vis vis-up">Contactar</a>
+								<a href="<?= home_url('contacto') ?>" class="btn btn-primary vis vis-up"><?php _e('Contactar','captec'); ?></a>
 							</div><!--end of team member-->
 						</div>
 						
@@ -71,7 +71,7 @@
 								<!--img alt="Team Member" src="img/team-small-3.png "-->
 								<h2>Carlos Segovia Ramos</h2>
 								<h5><?php _e('Gerente General','captec'); ?></h5>
-								<a href="#" class="btn btn-primary vis vis-up">Enviar mensaje</a>
+								<a href="<?= home_url('contacto') ?>" class="btn btn-primary vis vis-up"><?php _e('Enviar mensaje','captec'); ?></a>
 							</div><!--end of team member-->
 						</div>
 						
@@ -82,21 +82,37 @@
 					
 				</div><!--end of container-->
 			</section>
-			
+<?php
+    $args = array(
+        'post_type' => 'captecclients',
+        'posts_per_page' => 6,
+    );
+    $clientes = get_posts($args);
+    if ($clientes){
+?>
 			<section class="clients-2">
 				<div class="container">
 				    <div class="row">
 				        <div class="col-xs-12 text-center">
-				            <h2>Ellos confian en nosotros, le esperamos</h2>
+				            <h2><?= _e('Ellos confian en nosotros, le esperamos', 'captec') ?></h2>
 				        </div>
 				    </div>
 					<div class="row flex-row">
-				        <img alt="Captec S.A. - Client Logo" src="<?php echo get_template_directory_uri(); ?>/images/coopccp-captec.png">
-				        <img alt="Captec S.A. - Client Logo" src="<?php echo get_template_directory_uri(); ?>/images/coopccp-captec.png">
-				        <img alt="Captec S.A. - Client Logo" src="<?php echo get_template_directory_uri(); ?>/images/oscus-captec.png">
-						
+                        <?php foreach ($clientes as $cliente){ ?>
+                        <?php
+                            $logo = get_post_meta( $cliente->ID, $prefix . 'logo_cliente', true); 
+                            
+                            if(!$logo){
+                                $logo = 'http://placehold.it/150x150?text=Logo'; 
+                            }
+                        ?>
+                        <a href="<?= get_the_permalink( $cliente->ID ) ?>">
+				            <img alt="<?= esc_html($cliente->post_title) ?> Logo - Captec S.A." src="<?= wp_get_attachment_url( $logo ); ?>" class="img-responsive">
+                        </a>
+				        <?php } //end foreach ?>
 					</div><!--end of row-->
 				</div><!--end of container-->
 			</section>
+<?php } //fin si $clientes ?>
 		</div>
 <?php get_footer(); ?>

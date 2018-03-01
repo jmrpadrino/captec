@@ -6,9 +6,7 @@
 					<div class="row">
 						<div class="col-sm-4">
 							<img alt="logo" class="logo" src="<?php echo get_template_directory_uri(); ?>/images/CaptecSA-Logo-Home.png">
-							<p>
-							    Somos una empresa Ecuatoriana dedicada a brindar el servicio de Asesoramiento, Montaje e Implementación de los Proyectos de ATM’s, Tarjeta de Crédito y Tarjeta de Débito con su Procesamiento Tecnológico, con marca internacional.
-							</p>
+							<p><?= _e('Somos una empresa Ecuatoriana dedicada a brindar el servicio de Asesoramiento, Montaje e Implementación de los Proyectos de ATM’s, Tarjeta de Crédito y Tarjeta de Débito con su Procesamiento Tecnológico, con marca internacional.','captec')?></p>
 						</div>
 						
 						<div class="col-sm-4">
@@ -43,7 +41,7 @@
 					
 					<div class="row">
 						<div class="col-sm-12">
-							<span class="sub">Captec S.A. © Copyright 2017 - <?php _e('Todos los derechos reservados','captec'); ?></span>
+							<span class="sub">Captec S.A. © Copyright <?= date('Y') ?> - <?php _e('Todos los derechos reservados','captec'); ?></span>
 							<span class="sub pull-right"><a href="https://choclomedia.com/" target="_blank">Un desarrollo de Choclomedia</a></span>
 						</div>
 					</div>
